@@ -1,0 +1,17 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    color: #0a4a7a;
+}
+
+.countdownDisplay {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    border: 4px solid #0A4A7A;
+    display: inline-block;
+    padding: .2em .4em;
+}
