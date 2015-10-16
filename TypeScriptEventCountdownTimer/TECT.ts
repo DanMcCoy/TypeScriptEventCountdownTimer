@@ -36,6 +36,10 @@
             }
         }
 
+        get isRunning(): boolean {
+            return this._isRunning;
+        }
+
         get remaining(): Date {
             return this._remaining;
         }

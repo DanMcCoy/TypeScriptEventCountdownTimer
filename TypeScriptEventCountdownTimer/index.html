@@ -10,12 +10,40 @@
 </head>
 <body>
     <h1>TypeScript Event Countdown Timer</h1>
-    <h2>Example</h2>
+    
+    <main>
+        <section>
+            <h2>Example 1</h2>
+            <p>This example counts down from 1 minute.</p>
+            <div id="example1" class="countdownDisplay"></div>
+        </section>
 
-    <section>
-        <p>This example counts down from 1 minute.</p>
-        <div id="example1" class="countdownDisplay"></div>
-    </section>
+        <section>
+            <h2>Example 2</h2>
+            <p>This example counts down from 20 seconds and sets off the alarm when the time is up.</p>
+            <div id="example2" class="countdownDisplay"></div>
+            <img src="images/clock.png" id="clock" />
+        </section>
+
+        <section>
+            <h2>Example 3</h2>
+            <p>This example counts down from 1 minute and sets off the bomb when the time is up. 
+            This timer can be paused and reset.
+            This example demonstrates firing different events at specific points in the countdown.
+            </p>
+            <div id="example3" class="countdownDisplay"></div>
+            <img src="images/bomb.png" id="bomb" />
+            <label id="bombMessage" for="bomb"></label>
+            <br/>
+            <input type="button" id="stopStartBomb" value="Stop" />
+            <input type="button" id="resetBomb" value="Reset" />
+        </section>
+
+    </main>
+
+    <footer>
+        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+    </footer>
     
 </body>
 </html>
